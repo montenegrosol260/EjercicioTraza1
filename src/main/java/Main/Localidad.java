@@ -24,4 +24,12 @@ public class Localidad {
         domicilios.add(domicilio);
         domicilio.setLocalidad(this);
     }
+
+//    @Override
+//    public String toString() {
+//        return "Localidad{" +
+//                "id=" + id +
+//                ", nombre='" + nombre + '\'' +
+//                '}';
+//    }
 }

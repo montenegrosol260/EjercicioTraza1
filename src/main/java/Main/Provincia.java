@@ -24,4 +24,12 @@ public class Provincia {
         localidades.add(localidad);
         localidad.setProvincia(this);
     }
+
+//    @Override
+//    public String toString() {
+//        return "Domicilio{" +
+//                "id=" + id +
+//                ", nombre='" + nombre + '\'' +
+//                '}';
+//    }
 }

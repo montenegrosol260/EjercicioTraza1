@@ -20,4 +20,12 @@ public class País {
         provincias.add(provincia);
         provincia.setPais(this);
     }
+
+//    @Override
+//    public String toString() {
+//        return "Pais{" +
+//                "id=" + id +
+//                ", nombre='" + nombre + '\'' +
+//                '}';
+//    }
 }

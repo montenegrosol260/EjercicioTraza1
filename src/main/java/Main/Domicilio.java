@@ -18,4 +18,13 @@ public class Domicilio {
     private Integer cp;
     private Localidad localidad;
 
+//    @Override
+//    public String toString() {
+//        return "Domicilio{" +
+//                "id=" + id +
+//                ", calle='" + calle + '\'' +
+//                ", numero='" + numero + '\'' +
+//                ", codigo postal='" + cp + '\'' +
+//                '}';
+//    }
 }

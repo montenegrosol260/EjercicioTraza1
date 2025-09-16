@@ -26,4 +26,15 @@ public class Empresa {
         sucursales.add(sucursal);
         sucursal.setEmpresa(this);
     }
+
+    @Override
+    public String toString() {
+        return "Empresa{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", razón social='" + razonSocial + '\'' +
+                ", CUIT='" + cuit + '\'' +
+                ", logo='" + logo + '\'' +
+                '}';
+    }
 }

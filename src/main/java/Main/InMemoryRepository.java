@@ -35,7 +35,7 @@ public class InMemoryRepository<T> {//declaramos la clase genérica
     //buscamos una entidad a través de su ID
     //usamos optional por si no existe la instancia el compilador
     //no corte el programa
-    public Optional<T> findByld(Long id){
+    public Optional<T> findById(Long id){
         //devuelve la búsqueda en un optional
         return Optional
                 //obtiene el id de la instancia, que puede ser null
